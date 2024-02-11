@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="los_origenes"
+version="1.0.0"
+displayName="los-origenes-mod"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="http://los-origenes.unaux.com"
+logoFile="logo.png"
+authors="eldediamante"
+
+[[dependencies.los_origenes]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

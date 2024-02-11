@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "los_origenes:mejora_de_piedra"
+    },
+    "title": {
+      "translate": "advancements.logro_piedra.title"
+    },
+    "description": {
+      "translate": "advancements.logro_piedra.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "logro_piedra": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "los_origenes:mejora_de_piedra"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 400
+  },
+  "parent": "los_origenes:logro_madera"
+}
